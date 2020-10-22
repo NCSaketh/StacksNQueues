@@ -12,6 +12,14 @@ public class MyStack {
     public void printStack() {
         ll.print();
     }
+    public void peak()
+    {
+        System.out.println(ll.head.data);
+    }
+    public void pop()
+    {
+        ll.pop();
+    }
 
 
 }
