@@ -33,5 +33,12 @@ public class StacksNQueuesMain {
         q.enqueue(70);
         q.printQueue();
 
+        //Dequeue
+        System.out.println();
+        System.out.println("DEQUEUE");
+        q.dequeue();
+        q.printQueue();
+        System.out.println();
+
     }
 }
