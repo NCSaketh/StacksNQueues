@@ -23,8 +23,15 @@ public class StacksNQueuesMain {
         s.pop();
         System.out.println("Every element has been popped");
         s.printStack();
-
         System.out.println("");
+
+        //Enqueue
+        MyQueue q=new MyQueue();
+        System.out.println("Enqueue Elements ");
+        q.enqueue(56);
+        q.enqueue(30);
+        q.enqueue(70);
+        q.printQueue();
 
     }
 }
