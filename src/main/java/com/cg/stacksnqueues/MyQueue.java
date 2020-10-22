@@ -8,6 +8,12 @@ public class MyQueue {
         Node node=new Node(data);
         ll.append(data);
     }
+
+    public void dequeue()
+    {
+        ll.popLast();
+    }
+
     public void printQueue()
     {
         ll.print();
